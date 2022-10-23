@@ -1,0 +1,206 @@
+.button-back-login{
+    font-size: var(--font-size-4);
+    font-weight: var(--weight-3);
+    color: var(--gray100);
+    border: .0625rem solid var(--gray600);
+    border-radius: var(--radius-2);
+    padding: .25rem .5rem;
+    background: none;
+    cursor: pointer;
+    width: 8.1875rem;
+    max-width: 100%;
+}
+
+.button-back-login:hover{
+    background-color: var(--gray800);
+}
+
+.button-register{
+    font-size: var(--font-size-3);
+    font-weight: var(--weight-3);
+    color: var(--gray900);
+    background-color: var(--brand100);
+    border: none;
+    padding: .5rem 0;
+    border-radius: var(--radius-2);
+    cursor: pointer;
+}
+
+.button-register:hover{
+    background-color: var(--brand200);
+}
+
+#button-register-disabled{
+    cursor: not-allowed;
+}
+
+.button-back-login-2{
+    font-size: var(--font-size-3);
+    font-weight: var(--weight-3);
+    color: var(--gray100);
+    border: .0625rem solid var(--gray600);
+    background: none;
+    padding: .5rem 0;
+    border-radius: var(--radius-2);
+    cursor: pointer;
+    width: 100%;
+}
+
+.button-back-login-2:hover{
+    background-color: var(--gray800);
+}
+
+.button-login{
+    font-size: var(--font-size-3);
+    font-weight: var(--weight-3);
+    color: var(--gray900);
+    background-color: var(--brand100);
+    border: none;
+    padding: .75rem 0;
+    border-radius: var(--radius-2);
+    cursor: pointer;
+}
+
+.button-login:hover{
+    background-color: var(--brand200);
+}
+
+.button-back-register{
+    font-size: var(--font-size-3);
+    font-weight: var(--weight-3);
+    color: var(--gray100);
+    padding: .75rem 0;
+    background: none;
+    border: .0625rem solid var(--gray600);
+    cursor: pointer;
+    width: 100%;
+}
+
+.button-back-register:hover{
+    background-color: var(--gray600);
+}
+
+.button-create-publication{
+    font-size: var(--font-size-3);
+    font-weight: var(--weight-3);
+    color: var(--gray900);
+    background-color: var(--brand100);
+    padding: .75rem 1rem;
+    border: none;
+    border-radius: var(--radius-2);
+    cursor: pointer;
+}
+
+.button-create-publication:hover{
+    background-color: var(--brand200);
+}
+
+.button-edit-post{
+    font-size: var(--font-size-4);
+    font-weight: var(--weight-3);
+    color: var(--gray100);
+    background: none;
+    border-radius: var(--radius-2);
+    border: .0625rem solid var(--gray600);
+    padding: .375rem .5rem;
+    cursor: pointer;
+}
+
+.button-edit-post:hover{
+    background-color: var(--gray800);
+}
+
+.button-delete-post{
+    font-size: var(--font-size-4);
+    font-weight: var(--weight-3);
+    color: var(--gray400);
+    background-color: var(--gray700);
+    border: none;
+    border-radius: var(--radius-2);
+    padding: 7px .5rem;
+    cursor: pointer;
+}
+
+.button-delete-post:hover{
+    color: var(--gray300);
+    background-color: var(--gray600);
+}
+
+.button-modal-close{
+    font-family: 'Nunito', sans-serif;
+    font-size: var(--font-size-4);
+    font-weight: var(--weight-1);
+    color: var(--gray300);
+    padding: .25rem .625rem;
+    border: none;
+    background-color: var(--gray700);
+    border-radius: var(--radius-2);
+    cursor: pointer;
+}
+
+.button-modal-close:hover{
+    background-color: var(--gray600);
+    color: var(--gray300);
+}
+
+.button-cancel{
+    font-size: var(--font-size-3);
+    font-weight: var(--weight-3);
+    color: var(--gray400);
+    padding: .4375rem 1.25rem;
+    background-color: var(--gray700);
+    border: none;
+    border-radius: var(--radius-2);
+    cursor: pointer;
+}
+
+.button-cancel:hover{
+    background-color: var(--gray600);
+    color: var(--gray300);
+}
+
+.button-post{
+    font-size: var(--font-size-3);
+    font-weight: var(--weight-3);
+    color: var(--gray900);
+    padding: .4375rem 1.25rem;
+    background-color: var(--brand100);
+    border: none;
+    border-radius: var(--radius-2);
+    cursor: pointer;
+}
+
+.button-post:hover{
+    background-color: var(--brand200);
+}
+
+.button-delete-post-modal{
+    font-size: var(--font-size-3);
+    font-weight: var(--weight-3);
+    color: var(--gray900);
+    padding: .4375rem 1.25rem;
+    background-color: var(--alert100);
+    border: none;
+    border-radius: var(--radius-2);
+    cursor: pointer;
+}
+
+.button-delete-post-modal:hover{
+    background-color: var(--alert200);
+}
+
+.button-leave-account{
+    padding: 1rem 0 0.75rem 0.75rem;
+    gap: 1rem;
+    background-color: var(--gray900);
+    border: none;
+    cursor: pointer;
+}
+
+.button-leave-account:hover{
+    background-color: var(--gray700);
+}
+
+#button-display-none{
+    display: none;
+}

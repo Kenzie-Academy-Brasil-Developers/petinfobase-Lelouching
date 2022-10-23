@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../../styles/globalStyles.css">
+        <link rel="stylesheet" href="../../styles/buttons.css">
+        <link rel="stylesheet" href="../../styles/inputs.css">
+        <link rel="stylesheet" href="../../styles/texts.css">
+        <link rel="stylesheet" href="../../styles/modal.css">
+        <link rel="stylesheet" href="../../styles/images.css">
+        <link rel="stylesheet" href="./index.css">
+        <link rel="stylesheet" href="../../styles/flex.css">
+        <title>Petinfo - Home</title>
+    </head>
+
+    <body>
+        <header>
+            <nav class="nav-header flex justify-between align-i-center container">
+                <h1 class="site-logo-home">Petinfo</h1>
+                <div class="div-nav flex align-i-center">
+                    <button class="button-create-publication" type="button">Criar publicação</button>
+                    <img class="user-image-logged" src="" alt="">
+                    <div class="leave-account flex-column">
+                        <div class="div-username flex">
+                            <span class="username-modal"></span>
+                        </div>
+                        <button type="button" class="button-leave-account flex align-i-center">
+                            <img class="image-leave-account" src="../../assets/img/sign-out-alt.svg" alt="Sair da conta">
+                            <span class="text-leave-account">Sair da conta</span>
+                        </button>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="div-feed flex container">
+                <span class="span-feed">Feed</span>
+            </div>
+            <ul class="list-posts container flex flex-column"></ul>
+        </main>
+        <script type="module" src="./index.js"></script>
+    </body>
+</html>

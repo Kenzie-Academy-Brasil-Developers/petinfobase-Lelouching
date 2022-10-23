@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/globalStyles.css">
+    <link rel="stylesheet" href="./styles/buttons.css">
+    <link rel="stylesheet" href="./styles/inputs.css">
+    <link rel="stylesheet" href="./styles/texts.css">
+    <link rel="stylesheet" href="./styles/modal.css">
+    <link rel="stylesheet" href="./styles/images.css">
+    <link rel="stylesheet" href="./pages/login/index.css">
+    <link rel="stylesheet" href="./styles/flex.css">
+    <title>Petinfo - Login</title>
+</head>
+<body>
+    <main class="flex justify-center align-i-center">
+        <div class="site-info flex flex-column">
+            <div class="div-texts-site flex flex-column">
+                <h1 class="site-logo">Petinfo</h1>
+                <h2 class="h2-title">Amor <span class="span-gray">e</span> carinho <span class="span-gray">por meio do conhecimento</span></h2>
+                <p class="site-description">Todas as informações para melhorar a vida do seu pet em um só lugar</p>
+            </div>
+            <!-- alt = "pet" -->
+            <div class="div-images-login-1 flex"> 
+                <div class="div-images-login-2 flex flex-wrap">
+                    <img class="image-2" src="./assets/img/CatLogin1.svg" alt="Pet">
+                    <img class="image-3" src="./assets/img/CatLogin2.svg" alt="Pet">
+                    <img class="image-4" src="./assets/img/CatLogin3.svg" alt="Pet">
+                </div>
+                <img class="image-1" src="./assets/img/CatLogin4.svg" alt="Pet">
+            </div>
+        </div>
+        <form action="" class="form-login flex flex-column">
+            <h2 class="h2-login">Login</h2>
+            <div class="div-login flex flex-column">
+                <label class="label-form" for="user-email-login">Email</label>
+                <input autofocus id="user-email-login" class="input-form" type="email" placeholder="Digite seu email aqui" required>
+            </div>
+            <div class="div-login flex flex-column">
+                <label class="label-form" for="user-password-login">Senha</label>
+                <input id="user-password-login" class="input-form" minlength="6" type="password" placeholder="Digite sua senha aqui" required>
+                <span class="wrong-password">A senha está incorreta</span>
+            </div>
+            <button class="button-login">Acessar</button>
+            <div class="div-login-2 flex flex-column align-i-center">
+                <span class="not-own-account">Ainda não possui conta?</span>
+                <span class="click-button-below">Clicando no botão abaixo, você pode se cadastrar rapidamente</span>
+            </div>
+            <a class="anchor-style-none" href="./pages/register/index.html">
+                <button type="button" class="button-back-register">Cadastrar</button>
+            </a>
+        </form>
+    </main>
+    <script type="module" src="./pages/login/index.js"></script>
+</body>
+</html>

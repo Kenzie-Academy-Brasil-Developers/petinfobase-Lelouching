@@ -1,0 +1,203 @@
+.h2-register{
+    font-size: var(--font-size-2);
+    font-weight: var(--weight-3);
+    color: var(--gray50);
+}
+
+.label-form{
+    font-size: var(--font-size-3);
+    font-weight: var(--weight-3);
+    color: var(--gray100);
+}
+
+.site-info{
+    width: 100%;
+    max-width: 350px;
+    gap: 1.5rem;
+}
+
+.div-texts-site{
+    gap: 3rem;
+}
+
+.site-logo{
+    font-size: var(--font-size-1);
+    font-weight: var(--weight-3);
+    color: var(--gray100);
+}
+
+.h2-title{
+    font-size: var(--font-size-1);
+    font-weight: var(--weight-2);
+    color: var(--brand100);
+}
+
+.site-description{
+    font-size: var(--font-size-3);
+    font-weight: var(--weight-4);
+    color: var(--gray300);
+    line-height: 150%;
+}
+
+.span-gray{
+    color: var(--gray100);
+}
+
+.h2-login{
+    font-size: var(--font-size-2);
+    font-weight: var(--weight-3);
+    color: var(--gray100);
+}
+
+.wrong-password{
+    display: none;
+    color: var(--alert100);
+    font-size: var(--font-size-4);
+    font-weight: var(--weight-4);
+}
+
+.not-own-account{
+    font-size: var(--font-size-4);
+    font-weight: var(--weight-3);
+    color: var(--gray100);
+}
+
+.click-button-below{
+    font-size: var(--font-size-4);
+    font-weight: var(--weight-4);
+    color: var(--gray300);
+}
+
+.modal-message-1{
+    font-size: var(--font-size-3);
+    font-weight: var(--weight-3);
+    color: var(--sucess100);
+}
+
+.modal-message-2{
+    font-size: var(--font-size-4);
+    font-weight: var(--weight-4);
+    color: var(--gray200);
+}
+
+.access-login-page{
+    color: var(--brand100);
+}
+
+.access-login-page:hover{
+    text-decoration: underline;
+}
+
+.site-logo-home{
+    font-size: 1.5rem;
+    font-weight: var(--weight-3);
+    color: var(--gray100);
+}
+
+.span-feed{
+    font-size: var(--font-size-2);
+    font-weight: var(--weight-3);
+    color: var(--gray100);
+}
+
+.user-post-name{
+    font-size: var(--font-size-4);
+    font-weight: var(--weight-3);
+    color: var(--gray100);
+}
+
+.span-separate{
+    font-size: var(--font-size-2);
+    font-weight: var(--weight-3);
+    color: var(--gray700);
+}
+
+.post-date{
+    font-size: var(--font-size-4);
+    font-weight: var(--weight-3);
+    color: var(--gray400);
+}
+
+.user-post-title{
+    font-size: 1.5rem;
+    font-weight: var(--weight-2);
+    color: var(--gray100);
+    line-height: 150%;
+}
+
+.user-post-description{
+    font-size: var(--font-size-3);
+    font-weight: var(--weight-4);
+    color: var(--gray300);
+    line-height: 150%;
+}
+
+.user-post-description-complete{
+    font-size: var(--font-size-3);
+    font-weight: var(--weight-4);
+    color: var(--gray300);
+    line-height: 150%;
+}
+
+.access-user-post{
+    font-size: var(--font-size-3);
+    font-weight: var(--weight-3);
+    color: var(--brand100);
+    width: fit-content;
+}
+
+.access-user-post:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.creating-post-title{
+    font-size: var(--font-size-2);
+    font-weight: var(--weight-3);
+    color: var(--gray100);
+}
+
+.label-post-modal{
+    font-size: var(--font-size-3);
+    font-weight: var(--weight-3);
+    color: var(--gray100);
+}
+
+.warn-delete-modal{
+    font-size: 1.5rem;
+    font-weight: var(--weight-3);
+    color: var(--gray100);
+}
+
+.warn-delete-modal-2{
+    font-size: var(--font-size-3);
+    font-weight: var(--weight-4);
+    color: var(--gray300);
+}
+
+.username-modal{
+    font-size: var(--font-size-3);
+    font-weight: var(--weight-3);
+    color: var(--gray100);
+}
+
+.text-leave-account{
+    font-size: var(--font-size-4);
+    font-weight: var(--weight-3);
+    color: var(--gray100);
+}
+
+#text-alert{
+    color: var(--alert100);
+}
+
+.mark-x{
+    background-color: var(--alert100);
+    border-radius: 50%;
+    padding: 0.5rem;
+    width: 28px;
+    height: 28px;
+    font-size: var(--font-size-3);
+    font-weight: var(--weight-2);
+    color: var(--gray900);
+}

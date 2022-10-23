@@ -1,0 +1,52 @@
+.image-1{
+    width: 5.4375rem;
+    height: 12.6875rem;
+}
+
+.image-2{
+    width: 5.4375rem;
+    height: 5.75rem;
+}
+
+.image-3{
+    width: 5.4375rem;
+    height: 5.75rem;
+}
+
+.image-4{
+    width: 12.1875rem;
+    height: 5.75rem;
+}
+
+.image-mark-check{
+    background-color: var(--sucess100);
+    border-radius: 50%;
+    padding: 0.5rem;
+    width: 28px;
+    height: 28px;
+    object-fit: cover;
+}
+
+.user-image-logged{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.user-image-post{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+
+.image-loading{
+    width: 1rem;
+    height: 1rem;
+}
+
+.image-leave-account{
+    width: .875rem;
+    height: .875rem;
+}

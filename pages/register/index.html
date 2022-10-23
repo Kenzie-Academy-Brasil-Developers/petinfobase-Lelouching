@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../styles/globalStyles.css">
+    <link rel="stylesheet" href="../../styles/buttons.css">
+    <link rel="stylesheet" href="../../styles/inputs.css">
+    <link rel="stylesheet" href="../../styles/texts.css">
+    <link rel="stylesheet" href="../../styles/modal.css">
+    <link rel="stylesheet" href="../../styles/images.css">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="../../styles/flex.css">
+    <title>Petinfo - Register</title>
+</head>
+<body>
+    <main class="flex justify-center align-i-center">
+        <form action="" class="form-register flex flex-column">
+            <div class="flex justify-between">
+                <h2 class="h2-register">Cadastro</h2>
+                <a href="../../index.html">
+                    <button type="button" class="button-back-login">Voltar para o login</button>
+                </a>
+            </div>
+            <div class="div-register flex flex-column">
+                <label class="label-form" for="user-name-register">Usuário</label>
+                <input autofocus id="user-name-register" class="input-form" name="Usuário" type="text" placeholder="Digite seu usuário aqui" required>
+            </div>
+            <div class="div-register flex flex-column">
+                <label class="label-form" for="user-email-register">Email</label>
+                <input id="user-email-register" class="input-form" type="text" placeholder="Digite seu email aqui" required>
+            </div>
+            <div class="div-register flex flex-column">
+                <label class="label-form" for="user-picture-register">Link da foto do perfil</label>
+                <input id="user-picture-register" class="input-form" type="url" placeholder="Insira o link aqui" required>
+            </div>
+            <div class="div-register flex flex-column">
+                <label class="label-form" for="user-password-register">Senha</label>
+                <input minlength="6" id="user-password-register" class="input-form" type="password" placeholder="Digite sua senha aqui" required>
+            </div>
+            <button disabled="true" id="button-register-disabled" class="button-register">Cadastrar</button>
+            <a href="../../index.html" class="anchor-style-none">
+                <button type="button" class="button-back-login-2">Voltar para o login</button>
+            </a>
+        </form>
+        <div class="site-info flex flex-column">
+            <div class="div-texts-site flex flex-column">
+                <h1 class="site-logo">Petinfo</h1>
+                <h2 class="h2-title">Ooooooba!</h2>
+                <p class="site-description">Agora vamos poder contribuir para o bem estar do seu pet por meio do conhecimento</p>
+            </div>
+            <div class="div-images-register-1 flex">
+                <img class="image-1" src="../../assets/img/CatRegister2.svg" alt="Pet">
+                <div class="div-images-register-2 flex flex-wrap">
+                    <img class="image-2" src="../../assets/img/CatRegister3.svg" alt="Pet">
+                    <img class="image-3" src="../../assets/img/CatRegister1.svg" alt="Pet">
+                    <img class="image-4" src="../../assets/img/CatRegister4.svg" alt="Pet">
+                </div>
+            </div>
+        </div>
+    </main>
+    <script type="module" src="./index.js"></script>
+</body>
+</html>

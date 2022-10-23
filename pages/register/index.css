@@ -1,24 +1,10 @@
-/* Desenvolva a estilização da sua página aqui */
-
 main{
     width: 100vw;
     height: 100vh;
     gap: 10rem;
 }
 
-.div-images-login-1{
-    gap: 1rem;
-    height: 12.6875rem;
-    width: 300px;
-    max-width: 100%;
-}
-
-.div-images-login-2{
-    align-content: space-between;
-    gap: 0 1.3rem;
-}
-
-.form-login{
+.form-register{
     padding: 2.75rem 1.5rem;
     background-color: none;
     gap: 1.625rem;
@@ -28,11 +14,17 @@ main{
     max-width: 100%;
 }
 
-.div-login{
+.div-register{
     gap: 1rem;
 }
 
-.div-login-2{
+.div-images-register-1{
     gap: 1rem;
-    text-align: center;
+    height: 12.6875rem;
+    width: 100%;
+}
+
+.div-images-register-2{
+    align-content: space-between;
+    gap: 0 1.3rem;
 }

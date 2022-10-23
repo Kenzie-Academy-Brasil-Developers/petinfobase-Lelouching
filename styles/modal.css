@@ -1,0 +1,65 @@
+/* toasts == .modal */
+
+.modal{
+    display: none;
+    position: fixed;
+    right: 3%;
+    bottom: 3%;
+    width: 28.9rem;
+    max-width: 100%;
+    background-color: var(--gray900);
+    box-shadow: 0px 4px 30px -12px rgba(0, 0, 0, 0.1);
+    border-radius: var(--radius-2);
+    gap: 1.5rem;
+    padding: 1.3125rem 2rem;
+}
+
+.div-modal{
+    gap: 1rem;
+}
+
+.modal-background{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(30, 30, 30, 0.5);
+    z-index: 1;
+    padding-top: 3rem;
+}
+
+.form-create-post{
+    background-color: var(--gray900);
+    width: 50.5rem;
+    max-width: 100%;
+    padding: 2rem 1.5rem;
+    z-index: 2;
+    height: fit-content;
+    border-radius: var(--radius-1);
+    gap: 2rem;
+}
+
+.div-modal-content-2{
+    gap: 1rem;
+}
+
+.div-modal-content-3{
+    gap: 0.75rem;
+}
+
+.modal-complete-post{
+    background-color: var(--gray900);
+    width: 50.5rem;
+    max-width: 100%;
+    padding: 2rem 1.5rem;
+    z-index: 2;
+    height: fit-content;
+    border-radius: var(--radius-1);
+    gap: 2rem;
+}
+
+@keyframes toastAnimation {
+    
+}
