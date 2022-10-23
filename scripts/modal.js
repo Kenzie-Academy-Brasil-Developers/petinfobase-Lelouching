@@ -69,6 +69,7 @@ function creatingPost(sendToApi) {
                 title,
                 content
             })
+            modalBlack.classList.remove("flex")
         })
 
         modalBlack.addEventListener("click", (event) => {
@@ -208,6 +209,7 @@ function editPost(postID, sendToApi) {
                 title,
                 content
             })
+            modalBlack.classList.remove("flex")
         })
         modalBlack.addEventListener("click", (event) => {
             if(event.target.classList.contains("modal-background")) {
@@ -270,6 +272,7 @@ function deletePost(postID, sendToApi) {
     modalCreate.addEventListener("submit", (event) => {
         event.preventDefault()
         sendToApi(postID)
+        modalBlack.classList.remove("flex")
     })
     modalBlack.addEventListener("click", (event) => {
         if(event.target.classList.contains("modal-background")) {
