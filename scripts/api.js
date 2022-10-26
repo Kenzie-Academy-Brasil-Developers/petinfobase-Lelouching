@@ -25,6 +25,9 @@ async function creatingAccount(data) {
         if(responseJSON.ok) {
             accountCreated()
             buttonRegister.innerHTML = `Cadastrar`
+            setTimeout(() => {
+                window.location.assign("../../index.html")
+            }, 10000)
         }
     
     } catch (err) {
